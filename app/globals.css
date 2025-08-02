@@ -133,6 +133,10 @@
   --tracking-0-035: 0.035rem;
   --tracking-0-025: 0.025rem;
   --tracking-0-015: 0.015rem;
+
+  --spacing-11: 2.75rem;
+  --spacing-45: 11.25rem;
+  --spacing-91: 22.75rem;
 }
 
 @layer utilities {
