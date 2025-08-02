@@ -12,7 +12,7 @@ const baseCheckboxStyle = `
   data-[state=checked]:bg-main-green-700 data-[state=checked]:border-main-green-700
   focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]
   aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive
-  size-4 shrink-0 rounded-[4px] border border-main-green-700
+  shrink-0 rounded-[4px] border border-main-green-700
   transition-shadow outline-none
   disabled:cursor-not-allowed disabled:opacity-50
 `;
@@ -20,8 +20,8 @@ const baseCheckboxStyle = `
 const checkboxVariants = cva(baseCheckboxStyle, {
   variants: {
     size: {
-      sm: 'size-4',
-      md: 'size-5', // 기본값
+      sm: 'size-4', // 기본값
+      md: 'size-5',
       lg: 'size-6',
     },
   },
